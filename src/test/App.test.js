@@ -49,9 +49,6 @@ const pages = [
   },
 ];
 
-// Adds router to Page context and allows us to navigate to the
-// correct page. See:
-// https://testing-library.com/docs/example-react-router/#reducing-boilerplate
 const renderWithRouter = (ui, { route = '/' } = {}) => {
   window.history.pushState({}, 'Test page', route);
   return render(ui, { wrapper: BrowserRouter });
@@ -65,7 +62,7 @@ test('Renders 404 Page Component', () => {
 
 const checkPageComponent = async (page) => {
   test(`Renders ${page.route} Component`, () => {
-    window.scrollTo = () => {}; // TODO mock this later
+    window.scrollTo = () => {}; 
     renderWithRouter(<page.component />, { route: page.route });
     const linkElement = screen.getByTestId('heading');
     expect(linkElement).toHaveTextContent(page.heading);

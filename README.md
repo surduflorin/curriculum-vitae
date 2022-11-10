@@ -1,12 +1,12 @@
 # Personal Website
 
-See: [surduvalentinflorin.com](https://surduvalentinflorin.com).
+See: [curriculum-vitae.tk](https://curriculum-vitae.tk).
 
 My personal website. An [MIT](https://github.com/surduvalentinflorin/personal-site/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
 
 ## Adapting this Project
 
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below and review **detailed notes and a checklist on adapting this project [here](./docs/adapting-guide.md)**. Please feel free to reach out to me by filing an issue or emailing me at [help@surduvalentinflorin.com](mailto:help@surduvalentinflorin.com) for help configuring your project.
+Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below and review **detailed notes and a checklist on adapting this project [here](./docs/adapting-guide.md)**. Please feel free to reach out to me by filing an issue or emailing me at [help@curriculum-vitae.tk](mailto:help@curriculum-vitae.tk) for help configuring your project.
 
 ## Contributing
 
