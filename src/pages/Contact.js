@@ -20,6 +20,14 @@ const Contact = () => (
         <p>Feel free to get in touch. You can email me at: </p>
         <EmailLink />
       </div>
+      <div className="links">
+        <span>Links in the site: </span>
+        <Link to="/about">About </Link> 
+        <Link to="/resume">Resume </Link>
+        <Link to="/projects">Projects </Link>
+        <Link to="/stats">Statistics </Link>
+        <Link to="/contact">Contact</Link>
+      </div>
       <ContactIcons />
     </article>
   </Main>

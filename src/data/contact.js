@@ -10,39 +10,14 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/surduvalentinflorin',
+    link: 'https://github.com/surduflorin',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/md',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/surduvalentinflorin/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/surduvalentinflorin',
+    link: 'https://www.linkedin.com/in/surduflorin',
     label: 'LinkedIn',
     icon: faLinkedinIn,
-  },
-  {
-    link: 'https://angel.co/surduvalentinflorin',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/surduvalentinflorin',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'mailto:surduvalentinflorin@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
   },
 ];
 
