@@ -2,7 +2,7 @@
 
 See: [curriculum-vitae.tk](https://curriculum-vitae.tk).
 
-My personal website. An [MIT](https://github.com/surduvalentinflorin/personal-site/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
+My personal website. An [MIT](https://github.com/surduvalentinflorin/curriculum-vitae/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
 
 ## Adapting this Project
 
@@ -21,8 +21,8 @@ Tested with: [node](https://nodejs.org/) >= v14 and optional [nvm](https://githu
 To download the repository and install dependencies, run the following commands:
 
 ```bash
-git clone git://github.com/surduvalentinflorin/personal-site.git # replace [surduvalentinflorin] with your github username if you fork first.
-cd personal-site
+git clone git://github.com/surduvalentinflorin/curriculum-vitae.git # replace [surduvalentinflorin] with your github username if you fork first.
+cd curriculum-vitae
 nvm install # this is optional - make sure you're running >= node 14 with `node --version`
 npm install
 ```
@@ -42,17 +42,17 @@ Your web browser should automatically open to `<ip>:<port>:<path>` default: [htt
 ### Deploying to Github Pages
 
 1. Modify the environmental variables and git remote url in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
-2. Modify `homepage` in `package.json` to point to where you plan to host your site. If you do not plan on using a custom domain name, it should look like `https://[your-gh-username].github.io/[repository-name - default:personal-site]/`
+2. Modify `homepage` in `package.json` to point to where you plan to host your site. If you do not plan on using a custom domain name, it should look like `https://[your-gh-username].github.io/[repository-name - default:curriculum-vitae]/`
 3. If you plan on using a custom domain, modify `public/CNAME`. If you don't, delete `public/CNAME`.
 
 Make a commit to `main` and push your changes. That's it.
 
 ### Static Export
 
-To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `personal-site/build/`. Copy this and self-host or deploy to a CDN.
+To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `curriculum-vitae/build/`. Copy this and self-host or deploy to a CDN.
 
 ## Acknowledgements
 
 * Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
 * Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-* [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://github.com/surduvalentinflorin/personal-site/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://github.com/surduvalentinflorin/personal-site/issues/168) for keeping my ego in check.
+* [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://github.com/surduvalentinflorin/curriculum-vitae/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://github.com/surduvalentinflorin/curriculum-vitae/issues/168) for keeping my ego in check.
